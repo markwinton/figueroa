@@ -6,6 +6,7 @@
     "@babel/preset-react": "^7.10.4",
     "babel-loader": "^8.1.0",
     "css-loader": "^5.0.0",
+    "file-loader": "^6.1.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "style-loader": "^2.0.0",
@@ -13,6 +14,6 @@
     "webpack-cli": "^4.0.0"
   },
   "scripts": {
-    "build": "webpack --mode production"
+    "build": "webpack --mode production && cp src/index.html build"
   }
 }
